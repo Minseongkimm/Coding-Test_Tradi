@@ -5,7 +5,7 @@ import {
   Switch,
   Redirect,
 } from 'react-router-dom';
-import Home from './Pages/Home';
+import Home from './Pages/Home/Home';
 // import ReactGA from "react-ga";
 
 const Routes = () => {
