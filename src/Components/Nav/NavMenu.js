@@ -19,12 +19,12 @@ const Wrapper = styled.div`
   line-height: 1rem;
   color: #fff;
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.07rem;
 `;
 
 const Menu = styled(Link)`
-  margin-left: 2rem;
+  margin-left: 2.5rem;
 `;
 
 export default NavMenu;
