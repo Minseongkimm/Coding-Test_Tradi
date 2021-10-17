@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const HomeText = () => {
   return (
     <Slogan>
-      <Slogan1>15% DC for first order</Slogan1>
+      <Slogan1>15% off for first order</Slogan1>
       <Slogan2>until October 30st </Slogan2>
     </Slogan>
   );

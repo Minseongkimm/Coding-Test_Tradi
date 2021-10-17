@@ -23,7 +23,6 @@ const Background = styled.div`
   height: 6rem;
   background-color: #000;
   opacity: 0.7;
-  z-index: 100;
 `;
 
 const NavWrapper = styled.div`

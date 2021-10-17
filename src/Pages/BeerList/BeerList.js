@@ -9,17 +9,15 @@ const BeerList = () => {
     { title: 'Tagline', field: 'tagline' },
     { title: 'First_brewed', field: 'first_brewed' },
     { title: 'Abv', field: 'abv' },
-    // { title: 'Ibu', field: 'ibu' },
   ];
 
   useEffect(() => {
     fetch('https://api.punkapi.com/v2/beers')
       .then((resp) => resp.json())
       .then((resp) => {
-        console.log(resp);
         setData(resp);
       });
-  });
+  }, []);
 
   return (
     <Wrapper>
