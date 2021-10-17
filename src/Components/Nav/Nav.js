@@ -1,4 +1,3 @@
-// import React, { useState } from 'react';
 import React from 'react';
 import styled from 'styled-components';
 import NavLogo from './NavLogo';
@@ -23,8 +22,7 @@ const Background = styled.div`
   width: 100%;
   height: 6rem;
   background-color: #000;
-  opacity: 0.8;
-  z-index: 100;
+  opacity: 0.7;
 `;
 
 const NavWrapper = styled.div`

@@ -19,7 +19,8 @@ function HomeVideo() {
 
 const Video = styled.video`
   position: fixed;
-  width: 87rem;
+  width: 92rem;
+  z-index: -1;
 `;
 
 export default HomeVideo;
